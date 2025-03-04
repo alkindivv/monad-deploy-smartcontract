@@ -1,0 +1,57 @@
+# Hardhat files
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Coverage directory used by tools like istanbul
+coverage/
+coverage.json
+
+# Hardhat deployment files
+deployments/
+
+# Debug logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Hardhat network data
+/data/
+
+# Gas reporter files
+gas-report.txt
+
+# Solidity coverage files
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
+
+# Miscellaneous
+.tmp/
+.temp/
+build/
+dist/
+.cache/
+
+# Contract verification
+contracts.json
+.verify-*
